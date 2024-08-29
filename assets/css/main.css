@@ -1915,7 +1915,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #594669 !important;
+			color: #b3a2cf !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2552,7 +2552,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #594669;
+					color: #61A6AB;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3256,7 +3256,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #594669;
+			background-color: #d692a0;
 		}
 
 		.wrapper.style3-alt {
