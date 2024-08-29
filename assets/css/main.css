@@ -1915,7 +1915,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #b3a2cf !important;
+			color: #61a6ab !important;
 		}
 
 			input[type="submit"].primary:after,
