@@ -111,6 +111,52 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+/* Default Sidebar Styling */
+#sidebar {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: #111; /* Adjust based on theme */
+    color: #fff;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+/* Sidebar hidden by default on mobile */
+@media (max-width: 768px) {
+    #sidebar {
+        transform: translateX(-250px);
+    }
+}
+
+/* Mobile Toggle Button */
+#sidebar-toggle {
+    display: none;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1100;
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Show Sidebar Toggle Button on Mobile */
+@media (max-width: 768px) {
+    #sidebar-toggle {
+        display: block;
+    }
+}
+
+/* Sidebar visible when toggled */
+#sidebar.visible {
+    transform: translateX(0);
+}
 
 /* Type */
 
